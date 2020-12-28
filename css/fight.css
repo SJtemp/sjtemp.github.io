@@ -1,0 +1,159 @@
+@font-face {
+  font-family: font;
+  src: url(../font.ttf);
+}
+
+* {
+  font-family: font;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../img/fon.jpg);
+  background-size: cover;
+  /* box-sizing: border-box; */
+  background-repeat: no-repeat;
+  /* position: absolute; */
+
+  /* position: absolute; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 50px;
+  color: black;
+  text-shadow: 0 0 15px orange;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+/* .center-img {
+  border-radius: 5px 5px 5px 5px;
+  visibility: hidden;
+  position: absolute;
+  left: 200px;
+  background: #fff;
+  box-shadow: -2px 2px 10px -1px #333;
+  border-radius: 5px;
+} */
+
+.left_fighters {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  margin-left: 5%;
+}
+.right_fighters {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.left_fighter-link {
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.left_fighter-link span {
+  /* border-radius: 5px 5px 5px 5px; */
+  visibility: hidden;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+
+  /* background: #fff; */
+  /* box-shadow: -2px 2px 10px -1px #333; */
+  /* border-radius: 5px; */
+}
+.left_fighter-link:hover span {
+  /* opacity: 1; */
+  /* border: tomato; */
+  visibility: visible;
+  width: 150px;
+
+  /* background-image: url(../img/bomzh2.jpg); */
+  /* position: absolute; */
+}
+/* right fighters */
+.right_fighter-link {
+  text-decoration: none;
+  margin-right: 15%;
+  margin-top: 20px;
+}
+
+.right_fighter-link span {
+  /* border-radius: 5px 5px 5px 5px; */
+  visibility: hidden;
+  position: absolute;
+  right: 60%;
+  top: 20%;
+
+  /* background: #fff; */
+  /* box-shadow: -2px 2px 10px -1px #333; */
+  /* border-radius: 5px; */
+}
+.right_fighter-link:hover span {
+  /* opacity: 1; */
+  /* border: tomato; */
+  visibility: visible;
+  width: 150px;
+
+  /* background-image: url(../img/bomzh2.jpg); */
+  /* position: absolute; */
+}
+
+/* right fighters */
+.bomzh {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  box-shadow: 5px 5px 15px black;
+
+  /* top: -50px; */
+  /* left: 0; */
+  /* opacity: 0; */
+}
+.bomzh:hover {
+  box-shadow: 0 0 15px orange;
+  border-radius: 30px 0 30px 0;
+}
+
+.bomzh_full {
+  width: 700px;
+  height: 700px;
+  margin: 5px;
+  box-shadow: 5px 5px 15px black;
+  /* visibility: hidden; */
+  /* border: 5px 5px 15px orange; */
+
+  /* top: -50px; */
+  /* left: 0; */
+  /* opacity: 0; */
+}
+.name {
+  /* font-family: font; */
+  text-align: center;
+  color: tomato;
+  text-shadow: 0 1px 15px orange;
+  font-style: italic;
+  font-size: 20;
+  letter-spacing: 5px;
+}
